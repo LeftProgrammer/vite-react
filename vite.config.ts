@@ -6,7 +6,7 @@ import { normalizePath } from 'vite';
 import autoprefixer from 'autoprefixer';
 import windi from 'vite-plugin-windicss';
 import viteEslint from 'vite-plugin-eslint';
-import viteStylelint from '@amatlash/vite-plugin-stylelint'
+import viteStylelint from '@amatlash/vite-plugin-stylelint';
 
 const variablePath = normalizePath(path.resolve('./src/variable.scss'));
 
